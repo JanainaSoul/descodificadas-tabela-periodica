@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,400,700');
+
+/* GLOBAL STYLES */
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	box-sizing:border-box;	
+}
+	
+:root{
+	--bg-preto:rgb(0,0,0);
+	--nao-metal:rgb(180,210,100);
+	--gas-nobre:rgb(100,180,225);
+	--metal-alcalino:rgb(245,200,100);
+	--metal-alcalino-terroso:rgb(240,230,90);
+	--semimetal:rgb(110,200,190);
+	--halogenio:rgb(170,225,255);
+	--outros-metais:rgb(190,210,210);
+	--metal-transicao:rgb(245,175,175);
+	--lantanideo:rgb(150,225,225);
+	--actinidio:rgb(230,190,220);
+}
+
+body{
+	font:1em/1 'Montserrat', sans-serif;
+	color:rgb(255,255,255);
+	text-align:center;
+	padding:1em 5%;
+	background:var(--bg-preto);	
+}
+
+caption {
+	margin:.5em 0;
+	font-size:calc(3vw + 2rem);
+	font-weight:100;
+	text-transform:uppercase;
+	letter-spacing:-.05em;
+}
+
+/*@charset "UTF-8";*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: rgb(248, 238, 225);
+}*/
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80vw;
+    height: 60vh;
+    margin: auto;
+    
+}
+
+td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+}
+
+sup {
+    font-size: 0.5em;
+    position: absolute;
+    top: 0px;
+    left: 3px;
+}
+
+sub {
+    font-size: 0.5em;
+    position: absolute;
+    bottom: 0px;
+    right: 3px;
+}
+
+.vazio {
+    border: none;
+}
+
+/*#esp {
+    background-color: rgb(248, 238, 225);
+}*/
+    
+
+
+
+.nao_metal {
+    color:var(--nao-metal);
+    
+}
+
+.gas_nobre {
+    /*background-color: rgb(212, 240, 212);*/
+    color:var(--gas-nobre);
+}
+
+.metal_alcalino {
+    /*background-color: rgba(248, 146, 30, 0.993);*/
+    color:var(--metal-alcalino);
+}
+
+.alcalino_terroso{
+    /*background-color:rgba(248, 154, 120, 0.774);*/
+    color:var(--metal-alcalino-terroso);
+}
+
+.semi_metal {
+    /*background-color: rgb(172, 243, 219);*/
+    color:var(--semimetal);
+}
+
+.halogenios {
+    /*background-color: rgb(140, 126, 228);*/
+    color:var(--halogenio);
+}
+
+.metais_transicao {
+    /*background-color: rgba(255, 255, 0, 0.466);*/
+    color:var(--metal-transicao);
+}
+
+.outros-metais {
+    /*background-color: rgb(178, 178, 238);*/
+    color:var(--outros-metais);
+}
+
+.lantanideos {
+    /*background-color: rgb(240, 203, 123);*/
+    color:var(--lantanideo);
+}
+
+.actinidios {
+    /*background-color: rgba(112, 78, 5, 0.5);*/
+    color:var(--actinidio);
+}
+
+#tab {
+    width: 40vw;
+    height: 5vh;
+    font-size: 0.6em;
+  
+}
+#tab td {
+    padding: 3px;
+}
+
